@@ -385,6 +385,7 @@ ul {
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
+    text-align: center;
 }
 
 .service-card:hover {
@@ -392,30 +393,15 @@ ul {
     box-shadow: var(--shadow-lg);
 }
 
-.service-image {
-    overflow: hidden;
-    height: 250px;
-    background: var(--beige);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.service-image img {
-    width: 100%;
-    height: 100%;
-    /* Cover ensures it fills the space, cropping if needed */
-    object-fit: cover;
-    transition: var(--transition);
-    max-width: 100%;
-}
-
-.service-card:hover .service-image img {
-    transform: scale(1.1);
-}
-
 .service-content {
-    padding: 25px;
+    padding: 40px 25px;
+}
+
+.service-content i {
+    font-size: 3.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+    display: block;
 }
 
 .service-content h3 {
@@ -476,9 +462,8 @@ ul {
     cursor: pointer;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
-    /* Flexible height - adapts to any image aspect ratio */
-    height: auto;
-    min-height: 250px;
+    /* Fixed height for uniform appearance */
+    height: 350px;
 }
 
 .gallery-item.hide {
@@ -487,13 +472,11 @@ ul {
 
 .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
-    /* Maintain aspect ratio - no cropping */
-    object-fit: contain;
+    /* Cover ensures uniform sizing with cropping */
+    object-fit: cover;
     transition: var(--transition);
-    /* Prevent layout issues with large images */
-    max-width: 100%;
 }
 
 .gallery-overlay {

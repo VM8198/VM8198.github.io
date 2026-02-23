@@ -57,7 +57,7 @@ function renderGallery(images) {
     });
 }
 
-// Load special images (hero, about, services)
+// Load special images (hero background only)
 function loadSpecialImages(data) {
     // Hero background
     if (data.hero) {
@@ -65,21 +65,6 @@ function loadSpecialImages(data) {
         heroSection.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${data.hero}')`;
         heroSection.classList.add('has-image');
     }
-    
-    // Service images
-    const serviceImages = {
-        bridal: document.querySelector('.service-card:nth-child(1) .service-image img'),
-        arabic: document.querySelector('.service-card:nth-child(2) .service-image img'),
-        party: document.querySelector('.service-card:nth-child(3) .service-image img'),
-        festival: document.querySelector('.service-card:nth-child(4) .service-image img'),
-        kids: document.querySelector('.service-card:nth-child(5) .service-image img')
-    };
-    
-    Object.keys(serviceImages).forEach(key => {
-        if (data.services[key] && serviceImages[key]) {
-            serviceImages[key].src = data.services[key];
-        }
-    });
 }
 
 // Open lightbox with image
