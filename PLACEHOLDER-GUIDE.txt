@@ -1,29 +1,31 @@
 📸 PLACEHOLDER IMAGES - REPLACE THESE WITH YOUR PHOTOS!
 ════════════════════════════════════════════════════════════════
 
-✅ GOOD NEWS: Placeholder images have been created with the 
-   correct names. You can now just REPLACE these files with 
-   your actual photos - no renaming needed!
+✅ GOOD NEWS: The website works beautifully even WITHOUT 
+   hero-bg.jpg and about.jpg! The design has elegant fallbacks.
+   
+   Only the SERVICE images need placeholders - those have been
+   created with correct names for easy replacement.
 
 ════════════════════════════════════════════════════════════════
 
 📁 IMAGES TO REPLACE:
 
-In the "images" folder:
+OPTIONAL Images (Beautiful defaults if not added):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  📷 hero-bg.jpg
-     Replace with: Your main background image for hero section
+  📷 hero-bg.jpg (OPTIONAL - in "images" folder)
+     Without it: Beautiful gradient background displays
+     With it: Your photo overlays the gradient
      Recommended: Wide landscape photo (1920x1080 works well)
-     Any size works, but wider is better for backgrounds!
 
-  📷 about.jpg
-     Replace with: Your personal photo for About section
+  📷 about.jpg (OPTIONAL - in "images" folder)
+     Without it: About section shows text only (full width)
+     With it: Your photo displays alongside text
      Recommended: Portrait photo of you
-     Any size works - the design auto-adjusts!
 
 
-In the "images/others" folder:
+REQUIRED Service Images (in "images/others" folder):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   📷 service-bridal.jpg
@@ -73,8 +75,12 @@ Method 3: Delete & Add
 ⚠️ IMPORTANT: Keep the EXACT file names!
 
 The script looks for these EXACT names:
-  ✅ hero-bg.jpg (or .jpeg, .png, .webp)
-  ✅ about.jpg (or .jpeg, .png, .webp)
+
+OPTIONAL (graceful fallbacks if missing):
+  🔹 hero-bg.jpg (or .jpeg, .png, .webp)
+  🔹 about.jpg (or .jpeg, .png, .webp)
+
+REQUIRED (for service cards):
   ✅ service-bridal.jpg (or .jpeg, .png, .webp)
   ✅ service-arabic.jpg
   ✅ service-party.jpg

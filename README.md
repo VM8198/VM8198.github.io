@@ -38,18 +38,18 @@ pma/
 
 ### 0. Create Placeholder Images (Optional but Recommended!)
 
-**Want to avoid naming confusion?** Create placeholder images with the correct names:
+**Want placeholder images?** Create them with the correct names:
 
 ```
-Double-click: create-placeholders.ps1
+Double-click: CREATE-PLACEHOLDERS.bat
 ```
 
-This creates placeholder image files with the exact names needed:
-- ✅ `hero-bg.jpg` in `images/`
-- ✅ `about.jpg` in `images/`
-- ✅ All service images in `images/others/`
+This creates service placeholder image files with the exact names needed:
+- ✅ All 5 service images in `images/others/`
 
 **Then just replace these files with your actual photos - no renaming needed!**
+
+💡 **Note:** `hero-bg.jpg` and `about.jpg` are now OPTIONAL - the website has beautiful defaults if you don't add them!
 
 See [PLACEHOLDER-GUIDE.txt](PLACEHOLDER-GUIDE.txt) for detailed instructions.
 
@@ -64,9 +64,13 @@ Add photos to the appropriate folders:
 - `images/backhand/` - Back hand mehandi designs
 - `images/others/` - Service images, hero background, about photo
 
-**Important images for `images/others/` folder:**
-- `hero-bg.jpg` (or .png) - Main page background
-- `about.jpg` (or .png) - Your photo for About section
+**Important images for `images/` and `images/others/` folders:**
+
+**OPTIONAL (beautiful defaults if missing):**
+- `hero-bg.jpg` (or .png) - Main page background (shows gradient if not added)
+- `about.jpg` (or .png) - Your photo for About section (text-only layout if not added)
+
+**REQUIRED (for service cards):**
 - `service-bridal.jpg` - Bridal service card image
 - `service-arabic.jpg` - Arabic service card image
 - `service-party.jpg` - Party service card image

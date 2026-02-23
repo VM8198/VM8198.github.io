@@ -47,18 +47,6 @@ if (-not (Test-Path $othersPath)) {
     New-Item -Path $othersPath -ItemType Directory -Force | Out-Null
 }
 
-Write-Host "Creating main images..." -ForegroundColor Yellow
-Write-Host ""
-
-# Create hero background
-$heroPath = Join-Path $imagesPath "hero-bg.jpg"
-Create-PlaceholderImage -FilePath $heroPath -Description "Hero Background (Main page)"
-
-# Create about image
-$aboutPath = Join-Path $imagesPath "about.jpg"
-Create-PlaceholderImage -FilePath $aboutPath -Description "About Image (Your photo)"
-
-Write-Host ""
 Write-Host "Creating service card images..." -ForegroundColor Yellow
 Write-Host ""
 
@@ -86,12 +74,6 @@ Write-Host ""
 Write-Host "📝 Next Steps:" -ForegroundColor Yellow
 Write-Host "  1. Replace these placeholder files with your actual photos:" -ForegroundColor White
 Write-Host ""
-Write-Host "     In images/ folder:" -ForegroundColor Cyan
-Write-Host "     • hero-bg.jpg" -ForegroundColor White -NoNewline
-Write-Host "      → Your main background image" -ForegroundColor DarkGray
-Write-Host "     • about.jpg" -ForegroundColor White -NoNewline
-Write-Host "        → Your personal photo" -ForegroundColor DarkGray
-Write-Host ""
 Write-Host "     In images/others/ folder:" -ForegroundColor Cyan
 Write-Host "     • service-bridal.jpg   → Bridal service photo" -ForegroundColor White
 Write-Host "     • service-arabic.jpg   → Arabic service photo" -ForegroundColor White
@@ -99,9 +81,12 @@ Write-Host "     • service-party.jpg    → Party service photo" -ForegroundCo
 Write-Host "     • service-festival.jpg → Festival service photo" -ForegroundColor White
 Write-Host "     • service-kids.jpg     → Kids service photo" -ForegroundColor White
 Write-Host ""
-Write-Host "  2. Just replace the files (keep the same names!)" -ForegroundColor White
-Write-Host "  3. Run UPDATE-GALLERY.bat" -ForegroundColor White
-Write-Host "  4. Open index.html - your images appear!" -ForegroundColor White
+Write-Host "  2. OPTIONAL: Add hero-bg.jpg or about.jpg to images/ folder" -ForegroundColor Yellow
+Write-Host "     (Beautiful defaults display if you don't add them!)" -ForegroundColor DarkGray
+Write-Host ""
+Write-Host "  3. Just replace the files (keep the same names!)" -ForegroundColor White
+Write-Host "  4. Run UPDATE-GALLERY.bat" -ForegroundColor White
+Write-Host "  5. Open index.html - your images appear!" -ForegroundColor White
 Write-Host ""
 Write-Host "💡 Tip: You can drag & drop your photos over these files!" -ForegroundColor Yellow
 Write-Host ""

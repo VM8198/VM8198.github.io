@@ -233,11 +233,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
-    /* Add your hero image here */
-    background-image: url('../images/hero-bg.jpg');
+    background: linear-gradient(135deg, #f4c2c2 0%, #d4a373 50%, #c9ada7 100%);
     background-size: cover;
     background-position: center;
+}
+
+.hero.has-image {
     background-attachment: fixed;
 }
 
@@ -328,9 +329,21 @@ ul {
 
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 50px;
     align-items: center;
+}
+
+.about-content.has-image {
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-image {
+    display: none;
+}
+
+.about-image.show {
+    display: block;
 }
 
 .about-image img {

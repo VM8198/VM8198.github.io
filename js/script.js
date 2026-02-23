@@ -68,14 +68,19 @@ function loadSpecialImages(data) {
     // Hero background
     if (data.hero) {
         const heroSection = document.querySelector('.hero');
-        heroSection.style.backgroundImage = `url('${data.hero}')`;
+        heroSection.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${data.hero}')`;
+        heroSection.classList.add('has-image');
     }
     
     // About image
     if (data.about) {
         const aboutImg = document.querySelector('.about-image img');
+        const aboutImage = document.querySelector('.about-image');
+        const aboutContent = document.querySelector('.about-content');
         if (aboutImg) {
             aboutImg.src = data.about;
+            aboutImage.classList.add('show');
+            aboutContent.classList.add('has-image');
         }
     }
     
