@@ -397,18 +397,11 @@ ul {
     padding: 40px 25px;
 }
 
-.service-content i {
-    font-size: 3.5rem;
-    color: var(--primary);
-    margin-bottom: 20px;
-    display: block;
-}
-
 .service-content h3 {
     font-family: var(--font-heading);
     font-size: 1.5rem;
     color: var(--text-dark);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .service-content p {
@@ -532,6 +525,38 @@ ul {
     color: var(--white);
     cursor: pointer;
     z-index: 2001;
+    transition: var(--transition);
+}
+
+.lightbox-close:hover {
+    color: var(--primary);
+}
+
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: var(--white);
+    cursor: pointer;
+    z-index: 2001;
+    padding: 20px;
+    user-select: none;
+    transition: var(--transition);
+}
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    color: var(--primary);
+}
+
+.lightbox-prev {
+    left: 30px;
+}
+
+.lightbox-next {
+    right: 30px;
 }
 
 .lightbox-content {
@@ -542,13 +567,6 @@ ul {
     /* Contain keeps full image visible without cropping */
     object-fit: contain;
     border-radius: var(--border-radius-md);
-}
-
-.lightbox-caption {
-    position: absolute;
-    bottom: 30px;
-    color: var(--white);
-    font-size: 1.2rem;
 }
 
 /* =========================================
@@ -968,6 +986,20 @@ ul {
         top: 15px;
         right: 20px;
         font-size: 2rem;
+    }
+    
+    .lightbox-prev,
+    .lightbox-next {
+        font-size: 2rem;
+        padding: 10px;
+    }
+    
+    .lightbox-prev {
+        left: 10px;
+    }
+    
+    .lightbox-next {
+        right: 10px;
     }
     
     .lightbox-content {

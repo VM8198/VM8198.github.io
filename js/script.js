@@ -2,6 +2,7 @@
 // Dynamic Image Gallery Loader
 // =========================================
 let galleryImages = [];
+let currentImageIndex = 0;
 
 // Load images from JSON file
 async function loadGalleryImages() {
@@ -47,7 +48,7 @@ function renderGallery(images) {
         
         // Add click event for lightbox
         galleryItem.addEventListener('click', () => {
-            openLightbox(img.src, img.alt);
+            openLightbox(index);
         });
         
         galleryGrid.appendChild(galleryItem);
@@ -68,15 +69,32 @@ function loadSpecialImages(data) {
 }
 
 // Open lightbox with image
-function openLightbox(src, alt) {
+function openLightbox(index) {
+    currentImageIndex = index;
+    showLightboxImage();
     const lightbox = document.getElementById('lightbox');
-    const lightboxImage = document.getElementById('lightboxImage');
-    const lightboxCaption = document.getElementById('lightboxCaption');
-    
-    lightboxImage.src = src;
-    lightboxCaption.textContent = alt;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
+}
+
+// Show current image in lightbox
+function showLightboxImage() {
+    const lightboxImage = document.getElementById('lightboxImage');
+    if (galleryImages[currentImageIndex]) {
+        lightboxImage.src = galleryImages[currentImageIndex].src;
+    }
+}
+
+// Navigate to next image
+function nextImage() {
+    currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+    showLightboxImage();
+}
+
+// Navigate to previous image
+function prevImage() {
+    currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+    showLightboxImage();
 }
 
 // Initialize gallery on page load
@@ -149,9 +167,22 @@ window.addEventListener('scroll', () => {
 // =========================================
 const lightbox = document.getElementById('lightbox');
 const lightboxClose = document.querySelector('.lightbox-close');
+const lightboxPrev = document.querySelector('.lightbox-prev');
+const lightboxNext = document.querySelector('.lightbox-next');
 
 // Close lightbox
 lightboxClose.addEventListener('click', closeLightbox);
+
+// Navigate images
+lightboxPrev.addEventListener('click', (e) => {
+    e.stopPropagation();
+    prevImage();
+});
+
+lightboxNext.addEventListener('click', (e) => {
+    e.stopPropagation();
+    nextImage();
+});
 
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
@@ -159,10 +190,16 @@ lightbox.addEventListener('click', (e) => {
     }
 });
 
-// Close lightbox with Escape key
+// Keyboard navigation
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
-        closeLightbox();
+    if (lightbox.classList.contains('active')) {
+        if (e.key === 'Escape') {
+            closeLightbox();
+        } else if (e.key === 'ArrowRight') {
+            nextImage();
+        } else if (e.key === 'ArrowLeft') {
+            prevImage();
+        }
     }
 });
 
