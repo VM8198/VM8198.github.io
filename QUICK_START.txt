@@ -3,46 +3,42 @@
 
 ✅ Your website is ready! Follow these simple steps to make it live:
 
-STEP 1: Update Instagram Links (2 minutes)
+STEP 1: Update Instagram Links (ALREADY DONE! ✅)
 -------------------------------------------
-Open index.html and find/replace "YOUR_INSTAGRAM_ID" with your actual Instagram username.
-There are 3 places to update (lines 41, 370, 379).
-
-Example: If your Instagram is @pritismehandiart, replace:
-https://instagram.com/YOUR_INSTAGRAM_ID
-with:
-https://instagram.com/pritismehandiart
+Your Instagram handle "pritis_mhendi_art" is already configured!
+No action needed - this step is complete.
 
 
 STEP 1.5: Create Placeholder Images (OPTIONAL - 1 minute) 🎯
 -------------------------------------------------------------
-Want to avoid naming confusion?
+Want placeholder service images?
 
-Run: create-placeholders.ps1 (or double-click it)
+Run: CREATE-PLACEHOLDERS.bat (double-click it)
 
-This creates placeholder images with correct names:
-✅ hero-bg.jpg, about.jpg, and all service images
+This creates service card placeholder images:
+✅ service-bridal.jpg, service-arabic.jpg, etc.
 
 Then just REPLACE these files with your photos - no renaming!
 See PLACEHOLDER-GUIDE.txt for details.
 
 
-STEP 2: Add Your Images (5 minutes) ⚡ AUTOMATIC!
+STEP 2: Add Your Images (5 minutes) ⚡ SUPER SIMPLE!
 ----------------------------------------
-Add photos to these folders:
-📁 images/bridal/     → Bridal mehandi designs
-📁 images/arabic/     → Arabic mehandi designs
-📁 images/minimal/    → Minimal mehandi designs
-📁 images/backhand/   → Back hand designs
-📁 images/others/     → hero-bg, about, service images
+Add ALL your mehandi work photos to ONE folder:
+📁 images/gallery/     → ALL your mehandi photos (any names!)
+
+Add service card example images:
+📁 images/others/     → service-bridal.jpg, service-arabic.jpg, etc.
+                     → hero-bg.jpg (optional)
 
 ✨ NO HTML EDITING NEEDED!
-✅ Just drop your mobile photos in folders
+✅ Just drop all your photos in images/gallery/
+✅ Any filenames work (IMG_001.jpg, design1.png, etc.)
+✅ No need to categorize - just add them all!
 ✅ Any size/format works automatically
-✅ No renaming required
 
 THEN: Double-click UPDATE-GALLERY.bat
-→ This scans folders and updates the gallery automatically!
+→ This scans the gallery folder and updates the website!
 → Your images appear on the website instantly!
 
 
@@ -51,7 +47,7 @@ STEP 3: Test Locally (1 minute)
 Double-click index.html to open in browser.
 ✓ Check all sections load properly
 ✓ Test navigation menu
-✓ Test gallery filters
+✓ View your gallery with all photos
 ✓ Click images to test lightbox
 ✓ Test on mobile (browser dev tools, F12 → Toggle device toolbar)
 

@@ -46,17 +46,16 @@ $galleryPath = Join-Path $scriptPath "images\gallery"
 if (Test-Path $galleryPath) {
     $images = @()
     foreach ($ext in $imageExtensions) {
-        $foundImages = Get-ChildItem -Path $galleryPath -Filter $ext -File | Where-Object { $_.Name -notlike "*.txt" }
-        $images += $foundImages
+        $images += Get-ChildItem -Path $galleryPath -Filter $ext -File | Where-Object { $_.Name -notlike "*.txt" }
     }
     
     foreach ($image in $images) {
         $relativePath = "images/gallery/$($image.Name)" -replace '\\', '/'
-        $newImageObj = @{
+        $imageObj = @{
             src = $relativePath
             alt = "Mehandi Design - $($image.BaseName)"
         }
-        $imageData.gallery += $newImageObj
+        $imageData.gallery += $imageObj
     }
     
     Write-Host "  ✓ Gallery" -ForegroundColor Green -NoNewline

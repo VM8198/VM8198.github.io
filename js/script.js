@@ -9,13 +9,8 @@ async function loadGalleryImages() {
         const response = await fetch('images.json');
         const data = await response.json();
         
-        // Store images for filtering
-        galleryImages = [
-            ...data.bridal.map(img => ({ ...img, category: 'bridal' })),
-            ...data.arabic.map(img => ({ ...img, category: 'arabic' })),
-            ...data.minimal.map(img => ({ ...img, category: 'minimal' })),
-            ...data.backhand.map(img => ({ ...img, category: 'backhand' }))
-        ];
+        // Store all gallery images (no categories needed)
+        galleryImages = data.gallery || [];
         
         // Render gallery
         renderGallery(galleryImages);
@@ -25,7 +20,7 @@ async function loadGalleryImages() {
         
         console.log(`✅ Loaded ${galleryImages.length} gallery images automatically!`);
     } catch (error) {
-        console.warn('⚠️ images.json not found. Run generate-images.ps1 to create it.');
+        console.warn('⚠️ images.json not found. Run UPDATE-GALLERY.bat to create it.');
         console.warn('Using placeholder images for now.');
     }
 }
@@ -42,7 +37,6 @@ function renderGallery(images) {
     images.forEach((img, index) => {
         const galleryItem = document.createElement('div');
         galleryItem.className = 'gallery-item fade-up';
-        galleryItem.setAttribute('data-category', img.category);
         
         galleryItem.innerHTML = `
             <img src="${img.src}" alt="${img.alt}" loading="lazy">
@@ -163,32 +157,6 @@ window.addEventListener('scroll', () => {
     } else {
         navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.08)';
     }
-});
-
-// =========================================
-// Gallery Filter Functionality
-// =========================================
-const filterButtons = document.querySelectorAll('.filter-btn');
-
-filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        // Remove active class from all buttons
-        filterButtons.forEach(btn => btn.classList.remove('active'));
-        
-        // Add active class to clicked button
-        button.classList.add('active');
-        
-        // Get filter value
-        const filterValue = button.getAttribute('data-filter');
-        
-        // Filter and render images
-        if (filterValue === 'all') {
-            renderGallery(galleryImages);
-        } else {
-            const filteredImages = galleryImages.filter(img => img.category === filterValue);
-            renderGallery(filteredImages);
-        }
-    });
 });
 
 // =========================================

@@ -1,8 +1,342 @@
 {
-  "bridal": [],
-  "hero": "",
-  "minimal": [],
-  "arabic": [],
+  "gallery": [
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0001",
+      "src": "images/gallery/IMG-20260223-WA0001.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0002",
+      "src": "images/gallery/IMG-20260223-WA0002.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0003",
+      "src": "images/gallery/IMG-20260223-WA0003.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0004",
+      "src": "images/gallery/IMG-20260223-WA0004.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0005",
+      "src": "images/gallery/IMG-20260223-WA0005.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0006",
+      "src": "images/gallery/IMG-20260223-WA0006.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0007",
+      "src": "images/gallery/IMG-20260223-WA0007.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0008",
+      "src": "images/gallery/IMG-20260223-WA0008.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0009",
+      "src": "images/gallery/IMG-20260223-WA0009.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0010",
+      "src": "images/gallery/IMG-20260223-WA0010.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0011",
+      "src": "images/gallery/IMG-20260223-WA0011.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0012",
+      "src": "images/gallery/IMG-20260223-WA0012.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0013",
+      "src": "images/gallery/IMG-20260223-WA0013.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0014",
+      "src": "images/gallery/IMG-20260223-WA0014.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0015",
+      "src": "images/gallery/IMG-20260223-WA0015.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0016",
+      "src": "images/gallery/IMG-20260223-WA0016.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0017",
+      "src": "images/gallery/IMG-20260223-WA0017.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0018",
+      "src": "images/gallery/IMG-20260223-WA0018.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0019",
+      "src": "images/gallery/IMG-20260223-WA0019.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0020",
+      "src": "images/gallery/IMG-20260223-WA0020.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0021",
+      "src": "images/gallery/IMG-20260223-WA0021.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0022",
+      "src": "images/gallery/IMG-20260223-WA0022.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0023",
+      "src": "images/gallery/IMG-20260223-WA0023.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0024",
+      "src": "images/gallery/IMG-20260223-WA0024.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0025",
+      "src": "images/gallery/IMG-20260223-WA0025.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0026",
+      "src": "images/gallery/IMG-20260223-WA0026.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0027",
+      "src": "images/gallery/IMG-20260223-WA0027.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0028",
+      "src": "images/gallery/IMG-20260223-WA0028.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0029",
+      "src": "images/gallery/IMG-20260223-WA0029.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0030",
+      "src": "images/gallery/IMG-20260223-WA0030.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0031",
+      "src": "images/gallery/IMG-20260223-WA0031.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0032",
+      "src": "images/gallery/IMG-20260223-WA0032.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0033",
+      "src": "images/gallery/IMG-20260223-WA0033.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0034",
+      "src": "images/gallery/IMG-20260223-WA0034.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0035",
+      "src": "images/gallery/IMG-20260223-WA0035.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0036",
+      "src": "images/gallery/IMG-20260223-WA0036.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0037",
+      "src": "images/gallery/IMG-20260223-WA0037.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0038",
+      "src": "images/gallery/IMG-20260223-WA0038.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0039",
+      "src": "images/gallery/IMG-20260223-WA0039.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0040",
+      "src": "images/gallery/IMG-20260223-WA0040.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0041",
+      "src": "images/gallery/IMG-20260223-WA0041.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0042",
+      "src": "images/gallery/IMG-20260223-WA0042.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0001",
+      "src": "images/gallery/IMG-20260223-WA0001.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0002",
+      "src": "images/gallery/IMG-20260223-WA0002.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0003",
+      "src": "images/gallery/IMG-20260223-WA0003.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0004",
+      "src": "images/gallery/IMG-20260223-WA0004.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0005",
+      "src": "images/gallery/IMG-20260223-WA0005.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0006",
+      "src": "images/gallery/IMG-20260223-WA0006.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0007",
+      "src": "images/gallery/IMG-20260223-WA0007.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0008",
+      "src": "images/gallery/IMG-20260223-WA0008.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0009",
+      "src": "images/gallery/IMG-20260223-WA0009.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0010",
+      "src": "images/gallery/IMG-20260223-WA0010.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0011",
+      "src": "images/gallery/IMG-20260223-WA0011.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0012",
+      "src": "images/gallery/IMG-20260223-WA0012.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0013",
+      "src": "images/gallery/IMG-20260223-WA0013.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0014",
+      "src": "images/gallery/IMG-20260223-WA0014.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0015",
+      "src": "images/gallery/IMG-20260223-WA0015.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0016",
+      "src": "images/gallery/IMG-20260223-WA0016.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0017",
+      "src": "images/gallery/IMG-20260223-WA0017.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0018",
+      "src": "images/gallery/IMG-20260223-WA0018.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0019",
+      "src": "images/gallery/IMG-20260223-WA0019.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0020",
+      "src": "images/gallery/IMG-20260223-WA0020.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0021",
+      "src": "images/gallery/IMG-20260223-WA0021.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0022",
+      "src": "images/gallery/IMG-20260223-WA0022.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0023",
+      "src": "images/gallery/IMG-20260223-WA0023.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0024",
+      "src": "images/gallery/IMG-20260223-WA0024.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0025",
+      "src": "images/gallery/IMG-20260223-WA0025.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0026",
+      "src": "images/gallery/IMG-20260223-WA0026.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0027",
+      "src": "images/gallery/IMG-20260223-WA0027.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0028",
+      "src": "images/gallery/IMG-20260223-WA0028.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0029",
+      "src": "images/gallery/IMG-20260223-WA0029.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0030",
+      "src": "images/gallery/IMG-20260223-WA0030.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0031",
+      "src": "images/gallery/IMG-20260223-WA0031.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0032",
+      "src": "images/gallery/IMG-20260223-WA0032.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0033",
+      "src": "images/gallery/IMG-20260223-WA0033.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0034",
+      "src": "images/gallery/IMG-20260223-WA0034.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0035",
+      "src": "images/gallery/IMG-20260223-WA0035.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0036",
+      "src": "images/gallery/IMG-20260223-WA0036.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0037",
+      "src": "images/gallery/IMG-20260223-WA0037.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0038",
+      "src": "images/gallery/IMG-20260223-WA0038.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0039",
+      "src": "images/gallery/IMG-20260223-WA0039.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0040",
+      "src": "images/gallery/IMG-20260223-WA0040.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0041",
+      "src": "images/gallery/IMG-20260223-WA0041.jpg"
+    },
+    {
+      "alt": "Mehandi Design - IMG-20260223-WA0042",
+      "src": "images/gallery/IMG-20260223-WA0042.jpg"
+    }
+  ],
   "services": {
     "party": "images/others/service-party.jpg",
     "kids": "images/others/service-kids.jpg",
@@ -10,5 +344,5 @@
     "arabic": "images/others/service-arabic.jpg",
     "festival": "images/others/service-festival.jpg"
   },
-  "backhand": []
+  "hero": ""
 }

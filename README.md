@@ -27,11 +27,8 @@ pma/
 │   └── script.js          # All JavaScript functionality
 │
 └── images/
-    ├── bridal/            # Bridal mehandi images
-    ├── arabic/            # Arabic mehandi images
-    ├── minimal/           # Minimal design images
-    ├── backhand/          # Back hand mehandi images
-    └── others/            # Other category images
+    ├── gallery/           # ALL your mehandi work photos (any names!)
+    └── others/            # Service card images
 ```
 
 ## 🚀 Quick Start
@@ -55,26 +52,22 @@ See [PLACEHOLDER-GUIDE.txt](PLACEHOLDER-GUIDE.txt) for detailed instructions.
 
 ### 1. Add Your Images - **AUTOMATIC LOADING!** ✨
 
-**No HTML editing required!** Just drop images in folders and run a simple script.
+**No HTML editing required!** Just drop images in one folder and run a simple script.
 
-Add photos to the appropriate folders:
-- `images/bridal/` - Bridal mehandi designs
-- `images/arabic/` - Arabic mehandi designs  
-- `images/minimal/` - Minimal mehandi designs
-- `images/backhand/` - Back hand mehandi designs
-- `images/others/` - Service images, hero background, about photo
+**Gallery Photos** - Add ALL your mehandi work to:
+- `images/gallery/` - All your mehandi designs (bridal, arabic, party, etc.)
+  - 💡 **Any filenames work!** IMG_001.jpg, design1.png, etc.
+  - 💡 **No need to categorize** - just add them all here!
 
-**Important images for `images/` and `images/others/` folders:**
+**Service Card Images** - Add example photos to `images/others/`:
+- `service-bridal.jpg` - Bridal mehandi example (appears on service card)
+- `service-arabic.jpg` - Arabic mehandi example
+- `service-party.jpg` - Party mehandi example
+- `service-festival.jpg` - Festival mehandi example
+- `service-kids.jpg` - Kids mehandi example
 
-**OPTIONAL (beautiful defaults if missing):**
-- `hero-bg.jpg` (or .png) - Main page background (shows gradient if not added)
-
-**REQUIRED (for service cards):**
-- `service-bridal.jpg` - Bridal service card image
-- `service-arabic.jpg` - Arabic service card image
-- `service-party.jpg` - Party service card image
-- `service-festival.jpg` - Festival service card image
-- `service-kids.jpg` - Kids service card image
+**Optional Hero Background** - Add to `images/:`
+- `hero-bg.jpg` (optional) - Main page background (shows gradient if missing)
 
 **✨ NO RESIZING NEEDED!**
 - ✅ Just drop your mobile phone photos directly!

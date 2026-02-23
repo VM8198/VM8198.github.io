@@ -14,45 +14,47 @@ Just drop images in folders and run a simple script!
 
 📋 HOW IT WORKS
 
-1. You add images to folders (bridal, arabic, minimal, backhand)
+1. You add ALL your mehandi photos to ONE folder (images/gallery/)
 2. You run UPDATE-GALLERY.bat (one double-click)
-3. Script scans folders and creates images.json
-4. Website automatically loads all images from images.json
+3. Script scans the folder and creates images.json
+4. Website automatically loads all images
 5. Gallery appears with all your photos - DONE! 🎉
+
+No need to categorize or rename - just drop them in!
 
 ════════════════════════════════════════════════════════════════
 
 🚀 STEP-BY-STEP GUIDE
 
-STEP 1: Add Images to Folders
+STEP 1: Add Gallery Images
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Drop your mobile photos into these folders:
+Drop ALL your mehandi work photos into ONE folder:
 
-📁 images/bridal/     ➜ Bridal mehandi designs
-📁 images/arabic/     ➜ Arabic mehandi designs
-📁 images/minimal/    ➜ Minimal designs
-📁 images/backhand/   ➜ Back hand designs
+📁 images/gallery/     ➜ ALL your mehandi photos go here!
 
-✅ Any filename works (IMG_1234.jpg, photo1.png, etc.)
+✅ Any filename works (IMG_1234.jpg, bridal-work.png, etc.)
 ✅ Any size/resolution works
 ✅ Any aspect ratio (portrait, landscape, square)
 ✅ JPG, JPEG, PNG, GIF, WEBP supported
+✅ No need to categorize - just add them all!
+
+💡 Service cards will show style examples from your service images
+💡 Gallery displays all your work in one beautiful grid
 
 
-STEP 2: Add Special Images
+STEP 2: Add Service Card Images
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Add these to: images/others/
 
-Required images:
-🖼️ hero-bg.jpg        ➜ Main page background
-🖼️ about.jpg          ➜ Your photo (About section)
+Required (these appear on service cards):
+🖼️ service-bridal.jpg   ➜ Bridal mehandi example
+🖼️ service-arabic.jpg   ➜ Arabic mehandi example
+🖼️ service-party.jpg    ➜ Party mehandi example
+🖼️ service-festival.jpg ➜ Festival mehandi example
+🖼️ service-kids.jpg     ➜ Kids mehandi example
 
-Service images (optional but recommended):
-🖼️ service-bridal.jpg   ➜ Bridal service card
-🖼️ service-arabic.jpg   ➜ Arabic service card
-🖼️ service-party.jpg    ➜ Party service card
-🖼️ service-festival.jpg ➜ Festival service card
-🖼️ service-kids.jpg     ➜ Kids service card
+Optional:
+🖼️ hero-bg.jpg (in images/) ➜ Main page background (gradient shows if missing)
 
 
 STEP 3: Run the Generator
@@ -66,8 +68,8 @@ That's it! The script will:
 ✅ Show you a summary
 
 You'll see output like:
-  ✓ bridal - Found 5 images
-  ✓ arabic - Found 3 images
+  ✓ Gallery - Found 12 images
+  ✓ Service images found
   etc.
 
 
@@ -84,7 +86,7 @@ No HTML editing needed! 🎉
 
 Want to add/remove images after initial setup?
 
-1. Add or remove image files from folders
+1. Add or remove image files from images/gallery/ folder
 2. Double-click UPDATE-GALLERY.bat again
 3. Refresh browser - changes appear instantly!
 

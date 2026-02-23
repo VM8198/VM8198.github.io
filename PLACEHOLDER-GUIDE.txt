@@ -81,22 +81,25 @@ REQUIRED (for service cards):
   ✅ service-festival.jpg
   ✅ service-kids.jpg
 
+Gallery images: ANY NAMES WORK! 🎉
+  Just drop them in images/gallery/ folder!
+
 File extensions can vary (.jpg, .jpeg, .png, .webp)
-but the base name MUST match exactly!
+but service image base names MUST match exactly!
 
 
 ════════════════════════════════════════════════════════════════
 
-🚀 AFTER REPLACING IMAGES:
+🚀 AFTER ADDING IMAGES:
 
 1. Run: UPDATE-GALLERY.bat (double-click)
-   This updates the gallery with your new images!
+   This scans all your images and updates the website!
 
 2. Open: index.html in browser
-   See your actual photos on the website!
+   See your gallery with all your photos!
 
 3. Deploy: Upload to GitHub Pages
-   Your website goes live with your photos!
+   Your website goes live with your work!
 
 
 ════════════════════════════════════════════════════════════════
