@@ -1,0 +1,156 @@
+📸 PLACEHOLDER IMAGES - REPLACE THESE WITH YOUR PHOTOS!
+════════════════════════════════════════════════════════════════
+
+✅ GOOD NEWS: Placeholder images have been created with the 
+   correct names. You can now just REPLACE these files with 
+   your actual photos - no renaming needed!
+
+════════════════════════════════════════════════════════════════
+
+📁 IMAGES TO REPLACE:
+
+In the "images" folder:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  📷 hero-bg.jpg
+     Replace with: Your main background image for hero section
+     Recommended: Wide landscape photo (1920x1080 works well)
+     Any size works, but wider is better for backgrounds!
+
+  📷 about.jpg
+     Replace with: Your personal photo for About section
+     Recommended: Portrait photo of you
+     Any size works - the design auto-adjusts!
+
+
+In the "images/others" folder:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  📷 service-bridal.jpg
+     Replace with: Photo showcasing bridal mehandi work
+
+  📷 service-arabic.jpg
+     Replace with: Photo showcasing arabic mehandi work
+
+  📷 service-party.jpg
+     Replace with: Photo showcasing party/engagement mehandi
+
+  📷 service-festival.jpg
+     Replace with: Photo showcasing festival mehandi
+
+  📷 service-kids.jpg
+     Replace with: Photo showcasing kids mehandi
+
+
+════════════════════════════════════════════════════════════════
+
+🔄 HOW TO REPLACE (3 EASY WAYS):
+
+Method 1: Drag & Drop (EASIEST!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. Find your photo
+  2. Drag it over the placeholder file
+  3. Windows will ask "Replace file?" → Click YES
+  4. Done! ✅
+
+Method 2: Copy & Rename
+━━━━━━━━━━━━━━━━━━━━━━
+  1. Copy your photo to the correct folder
+  2. Rename it to match the exact name (e.g., hero-bg.jpg)
+  3. Windows will ask to replace → Click YES
+  4. Done! ✅
+
+Method 3: Delete & Add
+━━━━━━━━━━━━━━━━━━━━━━
+  1. Delete the placeholder file
+  2. Copy your photo to that folder
+  3. Rename to exact name (e.g., about.jpg)
+  4. Done! ✅
+
+
+════════════════════════════════════════════════════════════════
+
+⚠️ IMPORTANT: Keep the EXACT file names!
+
+The script looks for these EXACT names:
+  ✅ hero-bg.jpg (or .jpeg, .png, .webp)
+  ✅ about.jpg (or .jpeg, .png, .webp)
+  ✅ service-bridal.jpg (or .jpeg, .png, .webp)
+  ✅ service-arabic.jpg
+  ✅ service-party.jpg
+  ✅ service-festival.jpg
+  ✅ service-kids.jpg
+
+File extensions can vary (.jpg, .jpeg, .png, .webp)
+but the base name MUST match exactly!
+
+
+════════════════════════════════════════════════════════════════
+
+🚀 AFTER REPLACING IMAGES:
+
+1. Run: UPDATE-GALLERY.bat (double-click)
+   This updates the gallery with your new images!
+
+2. Open: index.html in browser
+   See your actual photos on the website!
+
+3. Deploy: Upload to GitHub Pages
+   Your website goes live with your photos!
+
+
+════════════════════════════════════════════════════════════════
+
+💡 TIPS:
+
+✅ Use clear, well-lit photos
+✅ Any size works - design auto-adjusts
+✅ Mobile phone photos work perfectly!
+✅ You can replace images anytime
+✅ After replacing, just run UPDATE-GALLERY.bat again
+
+❌ Don't change the file names
+❌ Don't delete files without replacing them
+❌ Don't move files to different folders
+
+
+════════════════════════════════════════════════════════════════
+
+📝 EXAMPLE WORKFLOW:
+
+You have a photo called "my-photo.jpg" and want it as hero background:
+
+1. Navigate to: C:\Users\raoit\Work\pma\images\
+2. Find: hero-bg.jpg (placeholder)
+3. Drag your "my-photo.jpg" over "hero-bg.jpg"
+4. Click "Replace" when Windows asks
+5. Your photo is now hero-bg.jpg ✅
+6. Double-click UPDATE-GALLERY.bat
+7. Open index.html → Your photo appears as background! 🎉
+
+
+════════════════════════════════════════════════════════════════
+
+❓ TROUBLESHOOTING:
+
+Q: I replaced images but don't see them on website
+A: Did you run UPDATE-GALLERY.bat after replacing?
+   Also try refreshing browser (Ctrl+F5)
+
+Q: Can I use PNG instead of JPG?
+A: Yes! Any format works (.jpg, .jpeg, .png, .webp, .gif)
+
+Q: What if my photo name is different?
+A: Just rename your photo to match the placeholder name
+   OR drag it over the placeholder (it auto-renames)
+
+Q: Can I change the placeholder names?
+A: Not recommended - the script looks for these exact names
+   Just replace the files instead!
+
+
+════════════════════════════════════════════════════════════════
+
+✨ That's it! Replace the placeholders with your photos anytime!
+
+════════════════════════════════════════════════════════════════

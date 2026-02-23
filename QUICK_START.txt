@@ -1,0 +1,157 @@
+🚀 QUICK START GUIDE - Priti's Mehandi Art Website
+================================================================
+
+✅ Your website is ready! Follow these simple steps to make it live:
+
+STEP 1: Update Instagram Links (2 minutes)
+-------------------------------------------
+Open index.html and find/replace "YOUR_INSTAGRAM_ID" with your actual Instagram username.
+There are 3 places to update (lines 41, 370, 379).
+
+Example: If your Instagram is @pritismehandiart, replace:
+https://instagram.com/YOUR_INSTAGRAM_ID
+with:
+https://instagram.com/pritismehandiart
+
+
+STEP 1.5: Create Placeholder Images (OPTIONAL - 1 minute) 🎯
+-------------------------------------------------------------
+Want to avoid naming confusion?
+
+Run: create-placeholders.ps1 (or double-click it)
+
+This creates placeholder images with correct names:
+✅ hero-bg.jpg, about.jpg, and all service images
+
+Then just REPLACE these files with your photos - no renaming!
+See PLACEHOLDER-GUIDE.txt for details.
+
+
+STEP 2: Add Your Images (5 minutes) ⚡ AUTOMATIC!
+----------------------------------------
+Add photos to these folders:
+📁 images/bridal/     → Bridal mehandi designs
+📁 images/arabic/     → Arabic mehandi designs
+📁 images/minimal/    → Minimal mehandi designs
+📁 images/backhand/   → Back hand designs
+📁 images/others/     → hero-bg, about, service images
+
+✨ NO HTML EDITING NEEDED!
+✅ Just drop your mobile photos in folders
+✅ Any size/format works automatically
+✅ No renaming required
+
+THEN: Double-click UPDATE-GALLERY.bat
+→ This scans folders and updates the gallery automatically!
+→ Your images appear on the website instantly!
+
+
+STEP 3: Test Locally (1 minute)
+--------------------------------
+Double-click index.html to open in browser.
+✓ Check all sections load properly
+✓ Test navigation menu
+✓ Test gallery filters
+✓ Click images to test lightbox
+✓ Test on mobile (browser dev tools, F12 → Toggle device toolbar)
+
+
+STEP 4: Deploy to GitHub Pages (5 minutes)
+-------------------------------------------
+Option A - Using GitHub Website:
+1. Go to github.com and create new repository
+2. Upload all files (drag & drop)
+3. Go to Settings → Pages
+4. Select "main" branch → Save
+5. Wait 2-3 minutes
+6. Your site is live! 🎉
+
+Option B - Using Git Commands:
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/YOUR-USERNAME/REPO-NAME.git
+git branch -M main
+git push -u origin main
+
+Then enable Pages in Settings.
+
+
+STEP 5: Share Your Website! (Done!)
+------------------------------------
+Your live URL will be:
+https://YOUR-USERNAME.github.io/REPO-NAME/
+
+Share it on:
+✓ Instagram bio
+✓ WhatsApp status
+✓ Facebook
+✓ Business cards
+✓ Google My Business
+
+
+================================================================
+🔄 UPDATING YOUR GALLERY LATER
+================================================================
+
+Want to add/remove images after going live?
+
+1\ufe0f\u20e3 Add or remove images from folders
+2\ufe0f\u20e3 Double-click UPDATE-GALLERY.bat
+3\ufe0f\u20e3 Upload new images.json to GitHub
+4\ufe0f\u20e3 Done! Gallery updates automatically!
+
+No HTML editing ever needed! 🎉
+
+
+================================================================
+OPTIONAL CUSTOMIZATIONS
+================================================================
+
+Change Colors:
+--------------
+Edit css/style.css (lines 5-14) - Change CSS variable values
+
+Update Text:
+------------
+Edit index.html - All text is clearly commented
+
+Add More Gallery Images:
+-------------------------
+1. Add image to appropriate folder
+2. Copy a gallery item in index.html (lines 138-145)
+3. Update src and data-category
+
+
+================================================================
+NEED HELP?
+================================================================
+
+⭐ Read README.md for detailed instructions
+⭐ Check browser console (F12) for errors
+⭐ Verify file paths match exactly
+⭐ Test on different browsers
+
+
+================================================================
+CHECKLIST BEFORE GOING LIVE
+================================================================
+
+☐ Updated all Instagram links
+☐ Added all images
+☐ Replaced placeholder images in HTML
+☐ Tested website locally
+☐ Tested on mobile
+☐ Optimized/compressed images
+☐ All links work correctly
+☐ Deployed to GitHub Pages
+☐ Checked live site works
+
+
+================================================================
+
+🎉 You're all set! Your professional website is ready!
+
+Good luck with your Mehandi art business! ✨
+
+================================================================

@@ -1,0 +1,54 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Temporary Files
+*.log
+*.tmp
+*.temp
+~*
+
+# Dependencies (if you add any build tools later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build Output (if you add build tools)
+dist/
+build/
+.cache/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Optional: Backup Files
+*.bak
+*.backup
+
+# Optional: Image Processing
+*.psd
+*.ai
+*.sketch
+
+# Generated Files (will be recreated by script)
+# Uncomment the line below if you don't want to commit images.json
+# images.json

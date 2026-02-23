@@ -1,0 +1,20 @@
+📸 ADD YOUR IMAGES HERE!
+
+This folder is for BRIDAL MEHANDI designs.
+
+✨ SUPER EASY - 3 STEPS:
+
+1️⃣ DROP your mobile photos in THIS folder
+   ✅ Any size, any format (JPG, PNG)
+   ✅ No renaming needed
+   ✅ No resizing needed
+
+2️⃣ DOUBLE-CLICK: UPDATE-GALLERY.bat (in main folder)
+   This scans folders and updates the gallery automatically!
+
+3️⃣ DONE! Open index.html - your images appear!
+
+---
+
+That's it! No HTML editing required!
+Delete this file after adding your photos.

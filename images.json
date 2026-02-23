@@ -1,0 +1,15 @@
+{
+  "about": "images/about.jpg",
+  "bridal": [],
+  "hero": "images/hero-bg.jpg",
+  "minimal": [],
+  "arabic": [],
+  "services": {
+    "party": "images/others/service-party.jpg",
+    "kids": "images/others/service-kids.jpg",
+    "bridal": "images/others/service-bridal.jpg",
+    "arabic": "images/others/service-arabic.jpg",
+    "festival": "images/others/service-festival.jpg"
+  },
+  "backhand": []
+}

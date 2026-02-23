@@ -1,0 +1,20 @@
+📸 ADD YOUR IMAGES HERE!
+
+This folder is for SERVICE & SPECIAL images.
+
+✨ IMPORTANT IMAGES TO ADD:
+
+📷 hero-bg.jpg (or .png) - Main page background
+📷 about.jpg (or .png) - Your photo for About section
+📷 service-bridal.jpg - Bridal service card
+📷 service-arabic.jpg - Arabic service card
+📷 service-party.jpg - Party service card
+📷 service-festival.jpg - Festival service card
+📷 service-kids.jpg - Kids service card
+
+✨ WORKFLOW:
+1️⃣ Add these images to THIS folder (images/others/)
+2️⃣ Double-click UPDATE-GALLERY.bat
+3️⃣ Images automatically appear on website!
+
+Delete this file after adding your photos!
