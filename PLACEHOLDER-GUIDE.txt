@@ -19,11 +19,6 @@ OPTIONAL Images (Beautiful defaults if not added):
      With it: Your photo overlays the gradient
      Recommended: Wide landscape photo (1920x1080 works well)
 
-  📷 about.jpg (OPTIONAL - in "images" folder)
-     Without it: About section shows text only (full width)
-     With it: Your photo displays alongside text
-     Recommended: Portrait photo of you
-
 
 REQUIRED Service Images (in "images/others" folder):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -78,7 +73,6 @@ The script looks for these EXACT names:
 
 OPTIONAL (graceful fallbacks if missing):
   🔹 hero-bg.jpg (or .jpeg, .png, .webp)
-  🔹 about.jpg (or .jpeg, .png, .webp)
 
 REQUIRED (for service cards):
   ✅ service-bridal.jpg (or .jpeg, .png, .webp)

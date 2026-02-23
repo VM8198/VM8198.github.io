@@ -81,8 +81,8 @@ Write-Host "     • service-party.jpg    → Party service photo" -ForegroundCo
 Write-Host "     • service-festival.jpg → Festival service photo" -ForegroundColor White
 Write-Host "     • service-kids.jpg     → Kids service photo" -ForegroundColor White
 Write-Host ""
-Write-Host "  2. OPTIONAL: Add hero-bg.jpg or about.jpg to images/ folder" -ForegroundColor Yellow
-Write-Host "     (Beautiful defaults display if you don't add them!)" -ForegroundColor DarkGray
+Write-Host "  2. OPTIONAL: Add hero-bg.jpg to images/ folder" -ForegroundColor Yellow
+Write-Host "     (Beautiful gradient displays if you don't add it!)" -ForegroundColor DarkGray
 Write-Host ""
 Write-Host "  3. Just replace the files (keep the same names!)" -ForegroundColor White
 Write-Host "  4. Run UPDATE-GALLERY.bat" -ForegroundColor White

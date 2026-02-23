@@ -68,7 +68,6 @@ Add photos to the appropriate folders:
 
 **OPTIONAL (beautiful defaults if missing):**
 - `hero-bg.jpg` (or .png) - Main page background (shows gradient if not added)
-- `about.jpg` (or .png) - Your photo for About section (text-only layout if not added)
 
 **REQUIRED (for service cards):**
 - `service-bridal.jpg` - Bridal service card image

@@ -72,18 +72,6 @@ function loadSpecialImages(data) {
         heroSection.classList.add('has-image');
     }
     
-    // About image
-    if (data.about) {
-        const aboutImg = document.querySelector('.about-image img');
-        const aboutImage = document.querySelector('.about-image');
-        const aboutContent = document.querySelector('.about-content');
-        if (aboutImg) {
-            aboutImg.src = data.about;
-            aboutImage.classList.add('show');
-            aboutContent.classList.add('has-image');
-        }
-    }
-    
     // Service images
     const serviceImages = {
         bridal: document.querySelector('.service-card:nth-child(1) .service-image img'),

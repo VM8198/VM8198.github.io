@@ -42,7 +42,6 @@ $imageData = @{
         festival = ""
         kids = ""
     }
-    about = ""
     hero = ""
 }
 
@@ -86,16 +85,7 @@ if ($heroImages.Count -gt 0) {
     $imageData.hero = "images/$($heroImages[0].Name)" -replace '\\', '/'
     Write-Host "  ✓ Hero background found: $($heroImages[0].Name)" -ForegroundColor Green
 } else {
-    Write-Host "  ! No hero-bg.* found (add to images/ folder)" -ForegroundColor DarkYellow
-}
-
-# Check for about image
-$aboutImages = Get-ChildItem -Path (Join-Path $scriptPath "images") -Filter "about.*" -File
-if ($aboutImages.Count -gt 0) {
-    $imageData.about = "images/$($aboutImages[0].Name)" -replace '\\', '/'
-    Write-Host "  ✓ About image found: $($aboutImages[0].Name)" -ForegroundColor Green
-} else {
-    Write-Host "  ! No about.* found (add to images/ folder)" -ForegroundColor DarkYellow
+    Write-Host "  ! No hero-bg.* found (optional - gradient displays if missing)" -ForegroundColor DarkGray
 }
 
 # Check for service images in images/others/

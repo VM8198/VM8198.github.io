@@ -328,33 +328,8 @@ ul {
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    align-items: center;
-}
-
-.about-content.has-image {
-    grid-template-columns: 1fr 1fr;
-}
-
-.about-image {
-    display: none;
-}
-
-.about-image.show {
-    display: block;
-}
-
-.about-image img {
-    border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow-md);
-    width: 100%;
-    height: auto;
-    /* Maintain original aspect ratio */
-    object-fit: cover;
-    max-width: 100%;
-    display: block;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .about-text p {
@@ -963,12 +938,7 @@ ul {
         font-size: 2rem;
     }
     
-    /* About */
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
+    /* About stats */
     .about-stats {
         grid-template-columns: 1fr;
     }
