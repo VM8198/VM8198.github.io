@@ -136,11 +136,31 @@ ul {
     padding: 20px 0;
 }
 
-.logo h2 {
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+.logo-text {
     font-family: var(--font-heading);
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 600;
+    display: none; /* Hidden by default, shown if logo image fails to load */
+    margin: 0;
+}
+
+/* If no logo image, show text */
+.logo:not(:has(.logo-image)) .logo-text {
+    display: block;
 }
 
 .nav-menu {
@@ -904,6 +924,16 @@ ul {
     
     .nav-link::after {
         display: none;
+    }
+    
+    /* Logo */
+    .logo-image {
+        height: 40px;
+        max-width: 150px;
+    }
+    
+    .logo-text {
+        font-size: 1.2rem;
     }
     
     /* Hero */
